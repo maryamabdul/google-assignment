@@ -1,71 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Bing Assignment</title>
-	<style type="text/css">
-	body{
-  background-image: url(images/mar.jpg );
-  background-repeat: no-repeat;
-  /*background-size: cover;*/
-}
-li{
-	display: inline;
-    margin: 0 10px;
-}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Google</title>
 
-input{
-	margin:30px;
-	width: 50%;
-	height: 40px;
-}
-a{
-	text-decoration: none;
-	color: white;
-}
-/*#nav{*/
-	/*background-color:black;*/
-	/*height: 50px;}*/
-	/*#nav ul li {*/
-		/*display: inline;*/
-		/*padding: 15px;*/
-		/*font-family: cursive;*/
-	/*}*/
-.M{
-	display: inline;
-	/*margin: 70px auto 0 auto;*/
-	margin-bottom: -8%;
-}
-.n{
-	width: 30px;
-	margin-bottom: -1%;
-	margin-left: -5%;
-}
-.o{
-	width: 40px;
-	margin-bottom: -1%;
-	margin-left: -6%;
-}
+    <style>
+      body {
+        background-color: chocolate;
+      }
+      img {
+        width: 400px;
+      }
+      input {
+        width: 800px;
+        height: 40px;
+      }
+      li {
+        display: inline;
+      }
+      p {
+        display: inline;
+      }
+      ul {
+        display: inline;
+        padding: 0;
+      }
+      button {
+        padding: 15px;
+      }
+      #logo {
+         /*center a div */
+        width: 400px;
+        margin: 250px auto 0 auto;
+      }
+      #search {
+        width: 800px;
+        margin: 30px auto;
+      }
+      #lucky {
+        margin-left: 20px;
+      }
+      #btns {
+        /* background-color: brown; */
+        width: 282px;
+        margin: 0 auto;
+      }
+      #links {
+        /* background-color: red; */
+        width: 294px;
+        margin: 50px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="logo"><img src="./images/googlelogo.png" alt="" /></div>
+    <div id="search"><input type="text" /></div>
 
-</style>
-</head>
-<body>
-	<div id="nav">
-		<ul>
-			<li><a href="#">Images</a></li>
-			<li><a href="#">videos</a></li>
-			<li><a href="#">maps</a></li>
-			<li><a href="#">news</a></li>
-			<l1><a href="#">|</a></l1>
-			<li><a href="#">MSN</a></li>
-			<li><a href="#">office offline</a></li>
-			<li><a href="#">outlook.com</a></li>
+    <div id="btns">
+      <button>Google search</button>
+      <button id="lucky">I'm Feeling Lucky</button>
+    </div>
+    <div id="links">
+      <p>Google offered in:</p>
+      <ul>
+        <li><a href="#">Hausa</a></li>
+        <li><a href="#">Igbo</a></li>
+        <li><a href="#">Yoruba</a></li>
+        <li><a href="#">Pidgin</a></li>
       </ul>
-	</div>
- <div id="search">
- 	<img class="M" src="images/Bingwhitelogo.png" style="width:350px" >
-
- 	<input type="text" ><img  class="n" src="images/search.svg" ><img  class="o" src="images/download.png">
- </div>
-
-</body>
+    </div>
+  </body>
 </html>
